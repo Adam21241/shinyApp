@@ -59,7 +59,7 @@ ui <- fluidPage(
 
 server <- function(input, output) {
   
-  indian <- read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/pima-indians-diabetes/pima-indians-diabetes.data")
+  indian <- read.csv("indian.csv")
   abalone <- read.csv("http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data")
   
   observe({
